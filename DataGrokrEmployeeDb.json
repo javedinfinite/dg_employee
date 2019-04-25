@@ -1,34 +1,37 @@
 {
     "EmployeeDetails": [{
-    "001" :{
-    "Employee data" :   {
-        "Name"  :   "Deepak",
-        "Position"  :   "Team Lead - NoProjectPeople",
-        "Experience"    :   "2 years"
+        "Employee Id" : "001",
+        "Employee data" :   {
+            "Name"  :   "Deepak",
+            "Position"  :   "Team Lead - NoProjectPeople",
+            "Experience"    :   "2 years"
     }},
-    "002" :{
-    "Employee data" :   {
+    {
+        "Employee Id" : "002" ,
+        "Employee data" :   {
         "Name"  :   "Aparnaa",
         "Position"  :   "Developer - Full stack",
         "Experience"    :   "6 months"
     }},
-    "003":{
-    "Employee data" :   {
+    {
+        "Employee Id" : "003",
+        "Employee data" :   {
         "Name"  :   "Javed",
         "Position"  :   "Developer - Full stack",
         "Experience"    :   "5 months"
     }},
-    "004":{
-    "Employee data" :   {
+    {
+        "Employee Id" : "004",
+        "Employee data" :   {
         "Name"  :   "Roopa",
         "Position"  :   "Developer - Full stack",
         "Experience"    :   "4 months"
     }},
-    "005":{
-    "Employee data" :   {
+    {
+        "Employee Id" : "005",
+        "Employee data" :   {
         "Name"  :   "Mustaf",
         "Position"  :   "Developer - Full stack",
         "Experience"    :   "1 week"
-    }}
-    }]
+    }}]
 }
