@@ -1,0 +1,11 @@
+{
+  "name": "dg_employee",
+  "version": "1.0.0",
+  "description": "nothing",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "jarm",
+  "license": "ISC"
+}
