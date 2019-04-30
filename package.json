@@ -4,11 +4,16 @@
   "description": "nothing",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon index.js",
     "test": "jest"
   },
   "author": "jarm",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
   }
 }

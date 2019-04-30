@@ -1,8 +1,8 @@
 const data = require('./DataGrokrEmployeeDb')
 
-function filterEmployeeWithId (id) {
-    if(parseInt(id.EmployeeId)===parseInt(this))
-        return id  
+function filterEmployeeWithId (item) {
+    if(parseInt(item.id)===parseInt(this))
+        return item
   }
 
 module.exports = ({
