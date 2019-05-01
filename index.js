@@ -2,7 +2,7 @@ const express = require('express')
 const employeeController = require("./employee_controller");
 var cors = require('cors')
 const app = express()
-const port = 3001
+var port = process.env.PORT || 3001;
 
 var corsOptions = {
     origin: 'http://localhost:3000',
