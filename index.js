@@ -5,7 +5,7 @@ const app = express()
 var port = process.env.PORT || 3001;
 
 
-var whitelist = ['http://localhost:3000', 'https://datagrokr-employee.herokuapp.com/']
+var whitelist = ['http://localhost:3000', 'https://datagrokr-employee.herokuapp.com']
 var corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
