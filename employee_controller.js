@@ -7,7 +7,7 @@ function filterEmployeeWithId (item) {
 
 module.exports = ({
 
-    getEmployees :  (req, res) => {
+    getEmployees :  (req, res, next) => {
         res.send(data);
     },
     getEmployee :   (req, res) => {
@@ -16,7 +16,9 @@ module.exports = ({
         if(arrayOfObject.length==0)
             res.send("Data Not Found For the requested ID : "+req.params.id);
         else
+        {
             res.send(arrayOfObject[0]);
+        }
 
     }
 
