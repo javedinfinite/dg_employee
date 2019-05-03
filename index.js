@@ -4,10 +4,17 @@ var cors = require('cors')
 const app = express()
 var port = process.env.PORT || 3001;
 
+
+var whitelist = ['http://localhost:3000', 'https://datagrokr-employee.herokuapp.com/']
 var corsOptions = {
-    origin: 'http://localhost:3000',
-    optionsSuccessStatus: 200
+  origin: function (origin, callback) {
+    if (whitelist.indexOf(origin) !== -1) {
+      callback(null, true)
+    } else {
+      callback(new Error('Not allowed by CORS'))
+    }
   }
+}
 
 app.use(cors(corsOptions));
 
